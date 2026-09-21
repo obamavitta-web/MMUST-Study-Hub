@@ -1,1 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MMUST Study Hub</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7f9;
+      color: #222;
+    }
+
+    header {
+      background: #006633;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 15px;
+    }
+
+    nav {
+      background: #004d26;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 35px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      color: #006633;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      background: #006633;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .section {
+      padding: 25px 15px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #006633;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #006633;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #003d20;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MMUST Study Hub</h1>
+    <p>Your Online Learning Platform for MMUST Students</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#notes">Notes</a>
+    <a href="#exams">Exams</a>
+    <a href="#courses">Courses</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Welcome to MMUST Study Hub 📚</h2>
+
+    <p>
+      Access study notes, past examination papers,
+      course materials and other learning resources
+      in one place.
+    </p>
+
+    <a href="#notes" class="button">Start Studying</a>
+  </section>
+
+  <section class="section" id="notes">
+    <h2>Study Notes</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Human Anatomy</h3>
+        <p>Access notes and learning materials for Human Anatomy.</p>
+        <a href="#" class="button">View Notes</a>
+      </div>
+
+      <div class="card">
+        <h3>Physiology</h3>
+        <p>Study important concepts and physiology notes.</p>
+        <a href="#" class="button">View Notes</a>
+      </div>
+
+      <div class="card">
+        <h3>Cell Biology</h3>
+        <p>Access cell biology study materials.</p>
+        <a href="#" class="button">View Notes</a>
+      </div>
+
+      <div class="card">
+        <h3>Biotechnology</h3>
+        <p>Find biotechnology notes and course materials.</p>
+        <a href="#" class="button">View Notes</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="exams">
+    <h2>Past Examination Papers</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Past Papers</h3>
+        <p>Practice using previous examination papers.</p>
+        <a href="#" class="button">View Exams</a>
+      </div>
+
+      <div class="card">
+        <h3>CATs</h3>
+        <p>Find Continuous Assessment Tests for practice.</p>
+        <a href="#" class="button">View CATs</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="courses">
+    <h2>Courses</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Medical Science & Biotechnology</h3>
+        <p>Study resources for Medical Science and Biotechnology students.</p>
+        <a href="#" class="button">Open Course</a>
+      </div>
+
+      <div class="card">
+        <h3>Mathematics</h3>
+        <p>Mathematics notes and practice materials.</p>
+        <a href="#" class="button">Open Course</a>
+      </div>
+
+      <div class="card">
+        <h3>Digital Literacy</h3>
+        <p>Learning materials for digital literacy.</p>
+        <a href="#" class="button">Open Course</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 MMUST Study Hub</p>
+    <p>Built for MMUST Students 📚</p>
+  </footer>
+
+</body>
+  </html>
